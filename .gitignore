@@ -2,4 +2,6 @@ node_modules
 logs
 run
 
+config/config.local.js
+
 
