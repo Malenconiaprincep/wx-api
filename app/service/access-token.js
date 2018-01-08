@@ -1,10 +1,9 @@
-const Service = require("egg").Service
+const Base = require('./base')
 
-class ATService extends Service {
+class ATService extends Base {
   async fetch() {
     const ctx = this.ctx
     const { accessToken, appId, appSecret } = this.config.wxconfig
-    console.log(accessToken, appId, appSecret)
     const res = await ctx.curl('https://api.weixin.qq.com/cgi-bin/token', {
       dataType: 'json',
       data: {

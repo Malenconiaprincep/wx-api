@@ -1,6 +1,6 @@
-const Service = require("egg").Service
+const Base = require('./base')
 
-class JSTicketService extends Service {
+class JSTicketService extends Base {
   async fetch(params) {
     const ctx = this.ctx
     const { jsticket } = this.config.wxconfig

@@ -49,5 +49,9 @@ module.exports = {
     }
 
     return sign(jsapi_ticket, url)
+  },
+  isValidTime(){
+    
   }
+
 }
