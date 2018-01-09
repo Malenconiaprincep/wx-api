@@ -1,11 +1,11 @@
 {
   "name": "wx-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "wx-api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev --port 7002"
   },
   "author": "",
   "license": "ISC",
